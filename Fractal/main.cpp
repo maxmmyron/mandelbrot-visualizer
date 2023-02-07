@@ -27,7 +27,7 @@ int main()
 
 	double oxmin = -2.4;
 	double oxmax = 1.0;
-	double oyRange = (abs(oxmin) + abs(oxmax)) * height / width;
+	double oyRange = (oxmax - oxmin) * height / width;
 	double oymin = -oyRange / 2;
 	double oymax = oyRange / 2;
 
